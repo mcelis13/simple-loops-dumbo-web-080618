@@ -17,8 +17,6 @@ def loop_iterator(number_of_times)
   end
 end
 
-loop_iterator(5)
-
 def times_iterator(number_of_times)
   # code your solution here using the "times" keyword
   number_of_times.times do
@@ -45,6 +43,7 @@ def until_iterator(number_of_times)
   until counter == number_of_times
     phrase = "Welcome to Flatiron School's Web Development Course!"
     puts phrase
+    counter += 1
   end
 end
 
